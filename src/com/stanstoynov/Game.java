@@ -347,6 +347,7 @@ public class Game
                 System.out.println("You have no more attempts left!");
                 System.out.println("Thank you for playing!");
                 System.out.println("Final score: " + playerScore);
+                System.exit(0);
             }
 
             // Check if win condition has been met aka the hidden word/phrase no longer contains
