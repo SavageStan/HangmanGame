@@ -16,13 +16,15 @@
     <session id="-1946421185">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -37,12 +39,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="17151" />
+          <entry key="java" value="24211" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="17151" />
+          <entry key="JAVA" value="24211" />
         </counts>
       </usages-collector>
     </session>
@@ -55,17 +57,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="216">
+              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="149">
+              <caret line="202" column="41" lean-forward="true" selection-start-line="202" selection-start-column="41" selection-end-line="202" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Game#0;class#Game#0" />
@@ -80,30 +82,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/WordPhrase.java">
+        <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/DictionaryLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="720">
+              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
               <folding>
-                <element signature="method#WordPhrase#0;class#WordPhrase#0" />
-                <element signature="method#printTransformedWordPhraseVisible#0;class#WordPhrase#0" />
-                <element signature="method#printTransformedWordPhraseVisibleFullLowerCase#0;class#WordPhrase#0" />
-                <element signature="method#printTransformedWordPhraseHidden#0;class#WordPhrase#0" />
-                <element signature="method#getTransformedWordPhraseVisibleFullLowerCase#0;class#WordPhrase#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#DictionaryLoader#0;class#DictionaryLoader#0" />
+                <element signature="method#printFullDictionary#0;class#DictionaryLoader#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/DictionaryLoader.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/WordPhrase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="360">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#DictionaryLoader#0;class#DictionaryLoader#0" />
-                <element signature="method#printFullDictionary#0;class#DictionaryLoader#0" />
+                <element signature="method#printTransformedWordPhraseVisible#0;class#WordPhrase#0" />
+                <element signature="method#printTransformedWordPhraseVisibleFullLowerCase#0;class#WordPhrase#0" />
+                <element signature="method#printTransformedWordPhraseHidden#0;class#WordPhrase#0" />
+                <element signature="method#getTransformedWordPhraseVisibleFullLowerCase#0;class#WordPhrase#0" />
               </folding>
             </state>
           </provider>
@@ -131,11 +132,16 @@
       <find>reset</find>
       <find>close</find>
       <find>flush</find>
-      <find>scanner</find>
       <find>letters</find>
       <find>solvedCat</find>
       <find>solved</find>
       <find>not found</find>
+      <find>quit game</find>
+      <find>corre</find>
+      <find>scanner</find>
+      <find>game over</find>
+      <find>press enter</find>
+      <find>thank you</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -145,10 +151,10 @@
         <option value="$PROJECT_DIR$/src/com/stanstoynov/Dictionary.java" />
         <option value="$PROJECT_DIR$/src/com/stanstoynov/UserInput.java" />
         <option value="$PROJECT_DIR$/src/com/stanstoynov/InputValidation.java" />
-        <option value="$PROJECT_DIR$/src/com/stanstoynov/DictionaryLoader.java" />
-        <option value="$PROJECT_DIR$/src/com/stanstoynov/Game.java" />
-        <option value="$PROJECT_DIR$/src/com/stanstoynov/WordPhrase.java" />
         <option value="$PROJECT_DIR$/src/com/stanstoynov/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/stanstoynov/DictionaryLoader.java" />
+        <option value="$PROJECT_DIR$/src/com/stanstoynov/WordPhrase.java" />
+        <option value="$PROJECT_DIR$/src/com/stanstoynov/Game.java" />
       </list>
     </option>
   </component>
@@ -163,7 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,8 +191,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,7 +265,7 @@
       <window_info id="Learn" order="3" weight="0.3295302" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.50292397" side_tool="true" weight="0.14697987" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49707603" visible="true" weight="0.14697987" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49707603" visible="true" weight="0.15100671" />
       <window_info id="Structure" order="7" sideWeight="0.50292397" side_tool="true" weight="0.14697987" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32894737" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32894737" />
@@ -290,42 +296,19 @@
     <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/GameWordPhrase.java" />
     <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/Dictionary.java" />
     <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/UserInput.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/InputValidation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/InputValidation.java" />
     <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Game#0;class#Game#0" />
-            <element signature="method#welcomeScreen#0;class#Game#0" />
-            <element signature="method#selectCategoryScreen#0;class#Game#0" />
-            <element signature="method#extractWordPhrase#0;class#Game#0" />
-            <element signature="method#isValidCharacterInput#0;class#Game#0" />
-            <element signature="method#gameScreen#0;class#Game#0" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/WordPhrase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="360">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding>
-            <element signature="method#WordPhrase#0;class#WordPhrase#0" />
             <element signature="method#printTransformedWordPhraseVisible#0;class#WordPhrase#0" />
             <element signature="method#printTransformedWordPhraseVisibleFullLowerCase#0;class#WordPhrase#0" />
             <element signature="method#printTransformedWordPhraseHidden#0;class#WordPhrase#0" />
@@ -336,12 +319,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/DictionaryLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="720">
+          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#DictionaryLoader#0;class#DictionaryLoader#0" />
             <element signature="method#printFullDictionary#0;class#DictionaryLoader#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="202" column="41" lean-forward="true" selection-start-line="202" selection-start-column="41" selection-end-line="202" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Game#0;class#Game#0" />
+            <element signature="method#welcomeScreen#0;class#Game#0" />
+            <element signature="method#selectCategoryScreen#0;class#Game#0" />
+            <element signature="method#extractWordPhrase#0;class#Game#0" />
+            <element signature="method#isValidCharacterInput#0;class#Game#0" />
+            <element signature="method#gameScreen#0;class#Game#0" />
           </folding>
         </state>
       </provider>
