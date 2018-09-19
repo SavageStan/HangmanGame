@@ -7,8 +7,6 @@ import java.util.Scanner;
  * It handles player input, input validation, letter matching, score and attempts left.
  */
 
-// TODO: 19-Sep-18 tell them why we avoid using a single, named scanner object.
-
 //@SuppressWarnings("all")
 public class Game
 {
@@ -342,7 +340,6 @@ public class Game
             // aka check if the player has any attempts left.
             // If he does not, print a game over message, final score etc.
             // Prompt the user to press enter to exit the game.
-            // TODO Might want to make a restart game function.
             if(attemptsLeft == 0)
             {
                 System.out.println();
