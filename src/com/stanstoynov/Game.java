@@ -57,7 +57,7 @@ public class Game
         currentCategoryName = "";
         currentCategoryDictionary = new ArrayList<>();
         usedLettersList = new ArrayList<>();
-        usedLettersString = ""; // TODO: 23-Sep-18 maybe use string builder?
+        usedLettersString = "";
         rng = new Random();
         continuePlaying = false;
         helperObject = new HelperClass();
@@ -215,7 +215,7 @@ public class Game
         currentPhrase.setIsAlreadyUsed(true);
     }
 
-    private void displayGameScreen() // TODO: 23-Sep-18 refactor this method!
+    private void displayGameScreen()
     {
         // This method handles the actual game play.
         // It prints game info such as attempts left, current score, used letters etc.
@@ -390,12 +390,7 @@ public class Game
 
 }
 
-// TODO: 22-Sep-18 methods must have a verb in their name DONE
-// TODO: 23-Sep-18 booleans must contain a question
-// TODO: 22-Sep-18 user input only in game class DONE
-// TODO: 22-Sep-18 remove unnecessary logic from constructors DONE
-// TODO: 22-Sep-18 break method "chain" DONE
-// TODO: 22-Sep-18 do stuff right before you actually need it MAYBE DONE
+
 
 
 

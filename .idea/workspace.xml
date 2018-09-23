@@ -16,39 +16,41 @@
     <session id="-1946421185">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="4" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="31" />
+          <entry key="java" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="25" />
-          <entry key="java" value="28873" />
+          <entry key="java" value="28876" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28873" />
+          <entry key="JAVA" value="28876" />
           <entry key="PLAIN_TEXT" value="25" />
         </counts>
       </usages-collector>
@@ -59,11 +61,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="240">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2136">
+              <caret line="392" lean-forward="true" selection-start-line="392" selection-end-line="392" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#startGame#0;class#Game#0" />
+                <element signature="method#displayWelcomeScreen#0;class#Game#0" />
+                <element signature="method#populateCategoryList#0;class#Game#0" />
+                <element signature="method#selectCategoryScreen#0;class#Game#0" />
+                <element signature="method#extractPhrase#0;class#Game#0" />
+                <element signature="method#displayGameScreen#0;class#Game#0" />
+                <element signature="method#checkIfCurrentPhraseIsSolved#0;class#Game#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/HelperClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#checkForWinCondition#0;class#HelperClass#0" />
+                <element signature="method#checkForFailureCondition#0;class#HelperClass#0" />
+                <element signature="method#checkForQuitGameInput#0;class#HelperClass#0" />
+                <element signature="method#validateCharacterInput#0;class#HelperClass#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -233,7 +270,7 @@
       <window_info id="Learn" order="3" weight="0.3295302" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.50292397" side_tool="true" weight="0.14697987" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49707603" visible="true" weight="0.18456376" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49707603" visible="true" weight="0.18993288" />
       <window_info id="Structure" order="7" sideWeight="0.50292397" side_tool="true" weight="0.14697987" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32894737" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32894737" />
@@ -244,7 +281,7 @@
       <window_info anchor="bottom" id="Debug" order="6" weight="0.5204678" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" visible="true" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="TODO" order="9" visible="true" weight="0.32894737" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -262,7 +299,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/GameWordPhrase.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/GameDictionary.java" />
     <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/UserInput.java" />
     <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/InputValidation.java" />
     <entry file="file://$PROJECT_DIR$/../../Java Masterclass/S4L18 Floating point data types/FloatDouble/FloatDouble.iml">
@@ -286,37 +322,6 @@
           <folding>
             <element signature="e#143#144#0" expanded="true" />
             <element signature="e#178#179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="388" column="5" lean-forward="true" selection-start-line="388" selection-start-column="5" selection-end-line="388" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#startGame#0;class#Game#0" />
-            <element signature="method#displayWelcomeScreen#0;class#Game#0" />
-            <element signature="method#populateCategoryList#0;class#Game#0" />
-            <element signature="method#selectCategoryScreen#0;class#Game#0" />
-            <element signature="method#extractWordPhrase#0;class#Game#0" />
-            <element signature="method#displayGameScreen#0;class#Game#0" />
-            <element signature="method#checkIfCurrentPhraseIsSolved#0;class#Game#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/HelperClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#checkForWinCondtition#0;class#HelperClass#0" />
-            <element signature="method#checkForFailureCondition#0;class#HelperClass#0" />
-            <element signature="method#checkForQuitGameInput#0;class#HelperClass#0" />
-            <element signature="method#vaisValidCharacterInput#0;class#HelperClass#0" />
           </folding>
         </state>
       </provider>
@@ -345,8 +350,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/HelperClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#checkForWinCondition#0;class#HelperClass#0" />
+            <element signature="method#checkForFailureCondition#0;class#HelperClass#0" />
+            <element signature="method#checkForQuitGameInput#0;class#HelperClass#0" />
+            <element signature="method#validateCharacterInput#0;class#HelperClass#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stanstoynov/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2136">
+          <caret line="392" lean-forward="true" selection-start-line="392" selection-end-line="392" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#startGame#0;class#Game#0" />
+            <element signature="method#displayWelcomeScreen#0;class#Game#0" />
+            <element signature="method#populateCategoryList#0;class#Game#0" />
+            <element signature="method#selectCategoryScreen#0;class#Game#0" />
+            <element signature="method#extractPhrase#0;class#Game#0" />
+            <element signature="method#displayGameScreen#0;class#Game#0" />
+            <element signature="method#checkIfCurrentPhraseIsSolved#0;class#Game#0" />
+          </folding>
         </state>
       </provider>
     </entry>
