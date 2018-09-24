@@ -2,7 +2,7 @@ package com.stanstoynov;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class HelperClass
+public class GameHelper
 {
     /* This class contains methods that are used for various checks.
      * Win condition, failure condition, input validation and other various busywork.

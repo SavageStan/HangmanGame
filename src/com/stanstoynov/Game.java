@@ -2,7 +2,6 @@ package com.stanstoynov;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
-import java.util.Scanner;
 
 /* This class models the actual game play flow.
  * It handles player input, input validation, letter matching, score and attempts left.
@@ -24,7 +23,7 @@ public class Game
     private String usedLettersString;
     private Random rng;
     private boolean continuePlaying;
-    private HelperClass helperObject;
+    private GameHelper gameHelper;
     private boolean isFirstRun;
 
     public Game()
@@ -48,7 +47,6 @@ public class Game
         {
             System.out.println("The game dictionary file contains empty lines!");
             System.exit(1);
-
         }
 
         playerScore = 0;
@@ -60,7 +58,7 @@ public class Game
         usedLettersString = "";
         rng = new Random();
         continuePlaying = false;
-        helperObject = new HelperClass();
+        gameHelper = new GameHelper();
         isFirstRun = true;
     }
 
@@ -72,7 +70,7 @@ public class Game
             populateCategoryList();
         }
 
-        selectCategoryScreen();
+        displaySelectCategoryScreen();
         extractPhrase();
         displayGameScreen();
     }
@@ -107,7 +105,7 @@ public class Game
         }
     }
 
-    private void selectCategoryScreen()
+    private void displaySelectCategoryScreen()
     {
         // This method manages the category selection.
 
@@ -116,7 +114,7 @@ public class Game
         // If the categoryList is empty, this means that there a no more unsolved categories.
         // The player has beaten the game! Print message and exit game.
 
-        helperObject.checkForWinCondition(categoryList, playerScore);
+        gameHelper.checkForWinCondition(categoryList, playerScore);
 
         // If we still have unsolved categories, then keep playing.
         // Print all categories and ask the user to pick one.
@@ -137,14 +135,14 @@ public class Game
         selectCategoryLabel:
         while(true)
         {
-            userInput = helperObject.readNextLine();
+            userInput = gameHelper.readNextLine();
 
             // Check for "quit game" input.
             // At any point, in which the user is asked to provide input,
             // he/she can choose to quit the game by typing "quit game".
             // This makes sure the infinite loop can be stopped at any point.
 
-            helperObject.checkForQuitGameInput(userInput, playerScore);
+            gameHelper.checkForQuitGameInput(userInput, playerScore);
 
             // Check if the input exists as a category.
             // If it does, break out of the while loop.
@@ -199,7 +197,7 @@ public class Game
         {
             System.out.println("You have already solved all phrases from this category!");
             categoryList.remove(currentCategoryName.substring(1));
-            selectCategoryScreen();
+            displaySelectCategoryScreen();
         }
 
         // Select a random phrase from the list of unused phrases of the selected category.
@@ -259,15 +257,15 @@ public class Game
 
             // Ask the user to input a letter.
             System.out.println("Enter a letter: ");
-            String userInput = helperObject.readNextLine();
+            String userInput = gameHelper.readNextLine();
 
             // Check for "quit game" input.
-            helperObject.checkForQuitGameInput(userInput, playerScore);
+            gameHelper.checkForQuitGameInput(userInput, playerScore);
 
             // Validate input.
             // The validateCharacterInput() method also takes care of
             // printing an error messages when the input is invalid.
-            if(!helperObject.validateCharacterInput(userInput, true))
+            if(!gameHelper.validateCharacterInput(userInput, true))
             {
                 continue; // Go back and ask for a valid letter.
             }
@@ -318,7 +316,7 @@ public class Game
             // Check if failure condition has been met,
             // aka check if the player has any attempts left.
 
-            helperObject.checkForFailureCondition(attemptsLeft, playerScore);
+            gameHelper.checkForFailureCondition(attemptsLeft, playerScore);
 
             // Check if the current phrase has been solved
             // (it contains no more underscore characters).
@@ -332,7 +330,7 @@ public class Game
                 {
                     System.out.println();
                     System.out.println("Do you want to keep playing? (Y/N) or (YES/NO)");
-                    yesNo = helperObject.readNextLine();
+                    yesNo = gameHelper.readNextLine();
 
                     if (yesNo.equals("y") || yesNo.equals("yes"))
                     {
